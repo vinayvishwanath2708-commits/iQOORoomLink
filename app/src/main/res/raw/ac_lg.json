@@ -1,0 +1,32 @@
+{
+  "brand": "LG",
+  "source": "Flipper-IRDB ACs/LG/LG_AC.ir",
+  "protocol": "NECext",
+  "commands": {
+    "power": {
+      "protocol": "NECext",
+      "address": "81 66 00 00",
+      "command": "81 7E 00 00"
+    },
+    "temp_down": {
+      "protocol": "NECext",
+      "address": "81 66 00 00",
+      "command": "8A 75 00 00"
+    },
+    "temp_up": {
+      "protocol": "NECext",
+      "address": "81 66 00 00",
+      "command": "85 7A 00 00"
+    },
+    "fan": {
+      "protocol": "NECext",
+      "address": "81 66 00 00",
+      "command": "99 66 00 00"
+    },
+    "mode": {
+      "protocol": "NECext",
+      "address": "81 66 00 00",
+      "command": "9B 64 00 00"
+    }
+  }
+}
