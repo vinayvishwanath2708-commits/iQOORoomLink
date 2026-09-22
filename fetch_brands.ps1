@@ -1,4 +1,5 @@
 $brands = @('LG', 'Samsung', 'Daikin', 'Hitachi', 'Panasonic', 'Carrier', 'Voltas', 'Blue_Star', 'General_Electric')
+$noop = $null
 foreach ($b in $brands) {
     Write-Host "=== $b ==="
     try {
